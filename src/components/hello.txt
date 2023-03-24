@@ -1,0 +1,17 @@
+ <ul className={` xl:hidden   z-[-1]  fixed bg-black  text-white  w-[200px] h-full left-0   py-4  pl-7  opacity-${opacity} top-[${top}px] duration-500 by-3  before:content-[''] before:absolute before:h-full before:w-[100vw] before:bg-black before:opacity-[0.5] before:z-[-1] before:left-0 before:top-[0] mt-[25rem]  `}  >
+            <li className='mx-4 my-6 xl:my-0'>
+              <a href="/" className='text-xl hover:text-cyan-500 duration-500'>Home</a>
+            </li>
+            <li className='mx-4 my-6 xl:my-0'>
+              <a href="/" className='text-xl hover:text-cyan-500 duration-500'>About</a>
+            </li>
+            <li className='mx-4 my-6 xl:my-0'>
+              <a href="/" className='text-xl hover:text-cyan-500 duration-500'>Contact</a>
+            </li>
+            <button className='bg-cyan-400 text-white font-[Poppins] duration-500 px-6 py-2 mx-4 hover:bg-cyan-500 rounded '>
+              Get Started
+            </button>
+          </ul>
+
+
+            <span className='text-3xl md:hidden mr-3 ' ><i className={`fa fa-${navitems}`} onClick={Menu}></i></span>
